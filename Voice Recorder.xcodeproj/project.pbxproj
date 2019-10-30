@@ -73,14 +73,14 @@
 				E426A8D023697F3300326A8B /* AudioRecorder.swift */,
 				E426A8BA23697ADA00326A8B /* SceneDelegate.swift */,
 				E426A8BC23697ADA00326A8B /* ContentView.swift */,
+				E426A8D223697F5100326A8B /* RecordingsList.swift */,
+				E426A8D82369832800326A8B /* RecordingDataModel.swift */,
 				E426A8D4236981A700326A8B /* Extensions.swift */,
+				E426A8DA236983F100326A8B /* Helper.swift */,
 				E426A8BE23697ADB00326A8B /* Assets.xcassets */,
 				E426A8C323697ADB00326A8B /* LaunchScreen.storyboard */,
 				E426A8C623697ADB00326A8B /* Info.plist */,
 				E426A8C023697ADB00326A8B /* Preview Content */,
-				E426A8D223697F5100326A8B /* RecordingsList.swift */,
-				E426A8D82369832800326A8B /* RecordingDataModel.swift */,
-				E426A8DA236983F100326A8B /* Helper.swift */,
 			);
 			path = "Voice Recorder";
 			sourceTree = "<group>";
