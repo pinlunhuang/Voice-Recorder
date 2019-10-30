@@ -13,6 +13,9 @@
 		E426A8BF23697ADB00326A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E426A8BE23697ADB00326A8B /* Assets.xcassets */; };
 		E426A8C223697ADB00326A8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E426A8C123697ADB00326A8B /* Preview Assets.xcassets */; };
 		E426A8C523697ADB00326A8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E426A8C323697ADB00326A8B /* LaunchScreen.storyboard */; };
+		E426A8CD23697AEB00326A8B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E426A8CC23697AEB00326A8B /* .gitignore */; };
+		E426A8D123697F3400326A8B /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426A8D023697F3300326A8B /* AudioRecorder.swift */; };
+		E426A8D323697F5100326A8B /* RecordingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426A8D223697F5100326A8B /* RecordingsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E426A8C123697ADB00326A8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E426A8C423697ADB00326A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E426A8C623697ADB00326A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E426A8CC23697AEB00326A8B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E426A8D023697F3300326A8B /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		E426A8D223697F5100326A8B /* RecordingsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		E426A8AC23697ADA00326A8B = {
 			isa = PBXGroup;
 			children = (
+				E426A8CC23697AEB00326A8B /* .gitignore */,
 				E426A8B723697ADA00326A8B /* Voice Recorder */,
 				E426A8B623697ADA00326A8B /* Products */,
 			);
@@ -57,12 +64,14 @@
 			isa = PBXGroup;
 			children = (
 				E426A8B823697ADA00326A8B /* AppDelegate.swift */,
+				E426A8D023697F3300326A8B /* AudioRecorder.swift */,
 				E426A8BA23697ADA00326A8B /* SceneDelegate.swift */,
 				E426A8BC23697ADA00326A8B /* ContentView.swift */,
 				E426A8BE23697ADB00326A8B /* Assets.xcassets */,
 				E426A8C323697ADB00326A8B /* LaunchScreen.storyboard */,
 				E426A8C623697ADB00326A8B /* Info.plist */,
 				E426A8C023697ADB00326A8B /* Preview Content */,
+				E426A8D223697F5100326A8B /* RecordingsList.swift */,
 			);
 			path = "Voice Recorder";
 			sourceTree = "<group>";
@@ -133,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E426A8CD23697AEB00326A8B /* .gitignore in Resources */,
 				E426A8C523697ADB00326A8B /* LaunchScreen.storyboard in Resources */,
 				E426A8C223697ADB00326A8B /* Preview Assets.xcassets in Resources */,
 				E426A8BF23697ADB00326A8B /* Assets.xcassets in Resources */,
@@ -148,6 +158,8 @@
 			files = (
 				E426A8B923697ADA00326A8B /* AppDelegate.swift in Sources */,
 				E426A8BB23697ADA00326A8B /* SceneDelegate.swift in Sources */,
+				E426A8D323697F5100326A8B /* RecordingsList.swift in Sources */,
+				E426A8D123697F3400326A8B /* AudioRecorder.swift in Sources */,
 				E426A8BD23697ADA00326A8B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
