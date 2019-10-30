@@ -19,6 +19,7 @@
 		E426A8D5236981A700326A8B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426A8D4236981A700326A8B /* Extensions.swift */; };
 		E426A8D92369832800326A8B /* RecordingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426A8D82369832800326A8B /* RecordingDataModel.swift */; };
 		E426A8DB236983F100326A8B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426A8DA236983F100326A8B /* Helper.swift */; };
+		E426A8DD236988B500326A8B /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426A8DC236988B500326A8B /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		E426A8D4236981A700326A8B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E426A8D82369832800326A8B /* RecordingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDataModel.swift; sourceTree = "<group>"; };
 		E426A8DA236983F100326A8B /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E426A8DC236988B500326A8B /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			children = (
 				E426A8B823697ADA00326A8B /* AppDelegate.swift */,
 				E426A8D023697F3300326A8B /* AudioRecorder.swift */,
+				E426A8DC236988B500326A8B /* AudioPlayer.swift */,
 				E426A8BA23697ADA00326A8B /* SceneDelegate.swift */,
 				E426A8BC23697ADA00326A8B /* ContentView.swift */,
 				E426A8D223697F5100326A8B /* RecordingsList.swift */,
@@ -167,6 +170,7 @@
 			files = (
 				E426A8B923697ADA00326A8B /* AppDelegate.swift in Sources */,
 				E426A8D5236981A700326A8B /* Extensions.swift in Sources */,
+				E426A8DD236988B500326A8B /* AudioPlayer.swift in Sources */,
 				E426A8D92369832800326A8B /* RecordingDataModel.swift in Sources */,
 				E426A8BB23697ADA00326A8B /* SceneDelegate.swift in Sources */,
 				E426A8D323697F5100326A8B /* RecordingsList.swift in Sources */,
@@ -316,7 +320,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pinlun.Voice-Recorder";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pinlun.voice-recorder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,7 +339,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pinlun.Voice-Recorder";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pinlun.voice-recorder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
