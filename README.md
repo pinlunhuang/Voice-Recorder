@@ -17,7 +17,7 @@ Screenshots
 -------------
 
 - Main App UI ↓
-<img src="https://github.com/pinlunhuang/Voice-Recorder/blob/master/Screenshots/Main%20App%20UI.png" width="414" height="896" />
+<img src="https://github.com/pinlunhuang/Voice-Recorder/blob/master/Screenshots/Main%20App%20UI.png" width="362" height="668" />
 
 - Delete Recording ↓
-<img src="https://github.com/pinlunhuang/Voice-Recorder/blob/master/Screenshots/Delete%20func.png" width="414" height="896" />
+<img src="https://github.com/pinlunhuang/Voice-Recorder/blob/master/Screenshots/Delete%20func.png" width="362" height="668" />
